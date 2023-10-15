@@ -9,6 +9,19 @@ Antes de comenzar, asegúrate de tener instalados los siguientes componentes:
 - Apache Airflow: Un entorno de orquestación de tareas.
 - Python: Lenguaje de programación utilizado para escribir los scripts ETL.
 
+## Configuración de MySQL
+1. **Descarga MySQL**: Si aún no tienes MySQL instalado, puedes descargarlo desde [el sitio web oficial de MySQL](https://dev.mysql.com/downloads/mysql/).
+
+2. **Instalación en Windows**: Para instalar MySQL en Windows, puedes seguir [esta guía de instalación oficial](https://dev.mysql.com/doc/mysql-installation-excerpt/8.0/en/windows-installation.html).
+
+3. **Instalación en macOS**: Si usas macOS, puedes seguir [esta guía de instalación oficial](https://dev.mysql.com/doc/mysql-installation-excerpt/8.0/en/osx-installation-pkg.html).
+
+4. **Instalación en Linux (Ubuntu)**: En sistemas basados en Ubuntu, puedes usar el siguiente comando para instalar MySQL:
+
+   ```bash
+   sudo apt-get update
+   sudo apt-get install mysql-server
+
 ## Descripción
 
 En este taller, construiremos un pipeline ETL que realiza las siguientes tareas:
