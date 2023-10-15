@@ -36,7 +36,7 @@ En este taller, construiremos un pipeline ETL que realiza las siguientes tareas:
 
 3. **Carga de Datos**:
    - Almacenaremos los datos en Google Drive como archivo CSV.
-   - Guardaremos los datos transformados en una base de datos (proporcionar detalles).
+   - Guardaremos los datos transformados en una base de datos o mysql como yo realice el proceso, en mi caso yo la llame music.
 
 4. **Creación del dashboard**:
    - Usaremos una herramienta de visualización  Power BI para visualizar los datos.
@@ -48,7 +48,8 @@ Para ejecutar este taller, sigue estos pasos:
 1. [Clonar este repositorio](#) en tu máquina local.
 2. Asegúrate de que cumples con los requisitos mencionados anteriormente.
 3. Configura Apache Airflow según sea necesario (archivos DAG, conexiones, etc.).
-4. Ejecuta los DAGs en Apache Airflow.
+4. Crear una base de datos en mysql en conjunto de un tabla llamada grammy_awards o coo tu mas prefieras.
+5. Ejecuta los DAGs en Apache Airflow.
 
 ## Autor
 
